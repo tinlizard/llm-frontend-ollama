@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.llm-selector {
+  padding-bottom: 15px;
+}
+
+.llm-selector select {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input-bar-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.input-bar-wrapper input {
+  background-color: black;
+  color: white;
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.llm-output {
+  font-family: 'Courier New', Courier, monospace;
+  height: 70%;
+}
+
+.input-bar-wrapper button {
+  padding: 17px 25px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: red;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.input-bar-wrapper button:hover {
+  background-color: hsl(327, 100%, 40%);
+  transform: scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 40px;
+}
